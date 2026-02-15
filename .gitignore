@@ -1,0 +1,46 @@
+# Виртуальное окружение
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Файлы с секретами
+.env
+.env.*
+!.env.example
+config/local.py
+secrets.py
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи
+*.log
+logs/
+
+# Дистрибутивы
+dist/
+build/
+*.egg-info/
